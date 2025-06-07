@@ -1,6 +1,10 @@
 
 # Proyek Akhir: Menyelesaikan Permasalahan Institusi Pendidikan
 
+🔗 [Klik di sini untuk melihat dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+🔗 [Klik di sini untuk melihat dashboard Tableau](https://public.tableau.com/app/profile/muhammad.armand7202/viz/DrancangInstitute/DrancangInstitute)
+🔗 [Klik untuk akses aplikasi prediksi](https://students-performance-mka.streamlit.app)
+
 ## Business Understanding
 
 Drancang University menghadapi tantangan besar terkait **tingkat dropout mahasiswa yang tinggi**. Tingginya angka mahasiswa yang keluar berdampak pada efektivitas program pendidikan dan perencanaan anggaran institusi. Oleh karena itu, diperlukan analisis mendalam untuk memahami faktor-faktor yang memengaruhi dropout dan membangun solusi berbasis data.
@@ -25,7 +29,7 @@ Drancang University menghadapi tantangan besar terkait **tingkat dropout mahasis
 
 Dataset yang digunakan dalam proyek ini adalah **Student Performance Dataset** dari Dicoding. Dataset ini berisi informasi akademik, demografis, dan sosial ekonomi mahasiswa, termasuk status kelulusan, nilai semester, beasiswa, serta kondisi pembayaran kuliah.
 
-🔗 [Klik di sini untuk melihat dataset](https://github.com/dicodingacademy/dicoding_dataset/tree/main/students_performance)
+
 
 **Setup Environment:**
 
@@ -65,7 +69,6 @@ Visualisasi berikut menggambarkan berbagai faktor yang memengaruhi dropout:
 - **Dropout by Age**: Umur muda (16–24 tahun) mendominasi kasus dropout.
 - **Gender vs Age Group Dropout**: Terdapat perbedaan pola dropout berdasarkan kelompok usia dan gender.
 
-🔗 [Klik di sini untuk melihat dashboard Tableau](https://public.tableau.com/app/profile/muhammad.armand7202/viz/DrancangInstitute/DrancangInstitute)
 
 ## Machine Learning Prototype
 
@@ -74,8 +77,7 @@ Model Machine Learning berbasis **Random Forest** dibangun untuk memprediksi sta
 - Demografi: usia, gender, status sosial.
 - Sosio-ekonomi: beasiswa, pembayaran kuliah, pekerjaan orang tua.
 
-Aplikasi prototipe dibuat menggunakan **Streamlit** dan telah dideploy di:
-🔗 [Klik untuk akses aplikasi prediksi](https://students-performance-mka.streamlit.app)
+
 
 ## Conclusion
 
